@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Fobadara | Registration</title>
+</head>
+
+<body>
+  <section class="container">
+    <header>
+      <nav class="border mango-border">
+        <ul class="auto-grid">
+          <li class="nav-link"><a href="index.html">About Me</a></li>
+          <li class="nav-link"><a href="contact.html">Contact</a></li>
+          <li class="nav-link"><a href="registration.html">Registation</a></li>
+          <li class="nav-link"><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container border pear-border">
+      <h1 class="container">Sign Up</h1>
+      <form action="">
+        <fieldset class="container auto-grid-max">
+          <legend>Personalia</legend>
+
+          <div>
+            <label for="First">First Name</label><span class="alert">*</span>
+            <input type="text" name="First" aria-label="Your first name" placeholder="Your name" required>
+          </div>
+
+          <div>
+            <label for="Last">Last Name</label><span class="alert">*</span>
+            <input type="text" name="Last" aria-label="Your last name" placeholder="Your last name" required>
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="Phone" aria-label="Your phone number" placeholder="Your phone number" required>
+          </div>
+
+          <div>
+            <label for="gender" aria-label="gender">Gender</label>
+            <select name="gender">
+              <option value="placeholder" disabled>Select a gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="country">Country</label><span class="alert">*</span>
+            <input type="text" name="country" aria-label="Your country" placeholder="Your country" required>
+          </div>
+
+          <div>
+            <label for="state/province">State/Province</label><span class="alert">*</span>
+            <input type="text" name="state" aria-label="Your state/province" placeholder="Your state/province" required>
+          </div>
+        </fieldset>
+
+        <fieldset class="container auto-grid-max">
+          <legend>Security</legend>
+
+          <div>
+            <label for="Email">Email</label><span class="alert">*</span>
+            <input type="email" name="Email" aria-label="Your email" placeholder="Your email" required>
+          </div>
+
+          <div>
+            <label for="Password">Password</label><span class="alert">*</span>
+            <input type="password" name="Password" aria-label="Your password" placeholder="Your password" required>
+          </div>
+
+          <div class="container">
+            <label for="Password">Confirm Password</label><span class="alert">*</span>
+            <input type="password" name="Password" aria-label="Your password" placeholder="Your password" required>
+          </div>
+        </fieldset>
+
+        <button class="btn mango-border" type="submit">Submit</button>
+      </form>
+    </main>
+    <footer class="container form-footer pear-border">
+      <p> 2022 Built by Fobadara</p>
+    </footer>
+  </section>
+</body>
+
+</html>
