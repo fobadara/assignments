@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500&family=Lexend+Deca:wght@100;300&display=swap');
+
+/* variable */
+:root {
+  --color-primary: hsl(31, 77%, 52%);
+  --color-secondary: hsl(184, 100%, 22%);
+  --color-tertiary: hsl(179, 100%, 13%);
+  --color-white: hsla(0, 0%, 100%, 0.75);
+  --color-gray: hsl(0, 0%, 95%);
+}
+
+/* General styling */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-gray);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+}
+
+.mt4 {
+  margin-top: 4em;
+}
+
+.btn {
+  background-color: var(--color-gray);
+  font-size: 15px;
+  border: thin 1px var(--color-gray);
+  border-radius: 30px;
+  margin-top: 1.5em;
+  width: 60%;
+  padding: 0.6em;
+  text-align: center;
+}
+
+.btn:hover{
+  filter: brightness(0.85);
+  transition: 0.5s;
+}
+
+.btn:active{
+  filter: brightness(0.9);
+  transition: 0.5s;
+}
+
+img {
+  margin-bottom: 2em;
+}
+
+p {
+  margin-bottom: 2em;
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* sedan */
+.sedan {
+  background-color: var(--color-primary);
+  border-radius: 0.25rem 0.25rem 0 0;
+  padding: 3em;
+  margin: 0;
+}
+
+.sedan:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.sedan a {
+  color: var(--color-primary);
+}
+
+/* suv */
+.suv {
+  background-color: var(--color-secondary);
+  border-radius: 0.25rem 0.25rem 0 0;
+  padding: 3em;
+  margin: 0;
+  margin-left: -3.5px;
+}
+
+.suv:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.suv a {
+  color: var(--color-secondary);
+}
+
+/* luxury */
+.luxury {
+  background-color: var(--color-tertiary);
+  border-radius: 0.25rem 0.25rem 0 0;
+  padding: 3em;
+  margin: 0;
+  margin-left: -3.5px;
+}
+
+.luxury:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.luxury a {
+  color: var(--color-tertiary);
+}
+
+/* Mobile size */
+@media only screen and (min-width: 375px) {
+  .flex-row {
+    flex-direction: row;
+  }
+}
+
