@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: firebrick;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 1em;
+ text-align: end;
+  border-bottom: 1px solid #eaeaea;
+}
+
+nav a{
+  color: #fff;
+}
+
+nav a:hover{
+  color: gainsboro;
+}
+
+nav a:active {
+  color: #fff;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+
+form {
+    padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, select {
+  margin: 0.2em;
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.color-container {
+  display: flex;
+  align-items: center;
+}
+ .color-container > input {
+   margin: 0.3em;
+ }
+
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background: #00aaff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3em;
+  margin: 0.3em;
+  width: 60%;
+}
+
+button:hover {
+  background: #0c8ecf;
+}
+
+button:active {
+  background: #00aaff;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3em;
+  margin: 0.3em;
+   position: relative;
+  top: 100;
+}
+
+footer a {
+  color: darkgoldenrod;
+}
+
+footer a:hover {
+  color: gainsboro;
+}
+
+footer a:active {
+  color: #fff;
+  margin-bottom: 0.3em;
+}

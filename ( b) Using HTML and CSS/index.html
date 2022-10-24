@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Registration Page</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <a href="./index.html"><li>Register</li></a>
+      |
+      <a href="./login.html"><li>Login</li></a>
+    </ul>
+  </nav>
+  </main>
+  <form method="POST" action="./success.html">
+    <label for="first">
+      First Name
+    </label><br>
+    <input type="text" name="first" id="first" required><br>
+    <label for="last">
+      Last Name
+    </label><br>
+    <input type="text" name="last" id="last" required><br>
+    <label for="phone">
+      Phone number
+    </label><br>
+    <input type="text" name="phone" id="phone" required><br>
+    <label for="email">
+      Email
+    </label><br>
+    <input type="text" name="email" id="email" required><br>
+    <label for="gender">
+      Gender
+    </label><br>
+    <select name="gender" id="gender">
+      <option name="male" id="male">male</option>
+      <option name="female" id="female">female</option>
+      <option name="other" id="other">other</option>
+    </select><br>
+    <label for="date">
+      Date of birth
+    </label><br>
+    <input type="date" name="date" id="date" required><br>
+    <div>
+      <!--       <p>Favorite color</p> -->
+      <div class="color-container">
+        <input type="color" name="red" id="red" value="#ff0000">
+        <label for="red">
+          Favorite color
+        </label>
+      </div>
+    </div><br>
+    <button type="submit">Submit</button>
+  </form>
+  </main>
+  <footer>
+    <p>
+      Built by
+      <sup>
+        <a href="https://linkedin.com/in/fob90s">
+          <span>
+            Fobadara
+          </span>
+        </a>
+      </sup>
+    </p>
+  </footer>
+</body>
+
+</html>
